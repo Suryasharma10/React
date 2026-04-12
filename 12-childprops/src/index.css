@@ -1,0 +1,26 @@
+@import "tailwindcss";
+body {
+    background-color: black;
+}
+.light{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.7rem;
+    font-weight: bolder;
+    background-color: rgb(173, 239, 239);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.dark{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 0.7rem;
+    font-weight: bolder;
+    background-color: rgb(12, 98, 98);
+    color: white;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
